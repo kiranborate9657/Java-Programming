@@ -1,0 +1,31 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.Scanner;
+
+public class scannerclass {
+   public scannerclass() {
+   }
+
+   public static void main(String[] var0) {
+      System.out.println("Enter the first number:");
+      Scanner var3 = new Scanner(System.in);
+      int var1 = var3.nextInt();
+      System.out.println("Enter the second number: ");
+      int var2 = var3.nextInt();
+      int var4 = var1 + var2;
+      System.out.println("Addition is :" + var4);
+      System.out.println("multiplication");
+      System.out.println("Enter the number for the multiplication:");
+      var1 = var3.nextInt();
+      System.out.println("Enter the second number:");
+      var2 = var3.nextInt();
+      int var5 = var1 * var2;
+      System.out.println("multiplication is :" + var5);
+      System.out.println("Enter the number for the substraction :");
+      System.out.println("Enter the first number:");
+      var1 = var3.nextInt();
+      System.out.println("Enter the second number:");
+      var2 = var3.nextInt();
+      int var6 = var1 - var2;
+      System.out.println("Result of the substraction is:" + var6);
+   }
+}
